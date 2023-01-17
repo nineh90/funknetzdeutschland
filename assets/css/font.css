@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/roboto-mono-v22-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-mono-v22-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+h1{
+    font-size: 50px;
+    color: lightcoral;
+    text-shadow: 2px 2px 0 #0d0d0d;
+}
+
+h2{
+    font-size: 35px;
+    color: white;
+    text-shadow: 2px 2px 0px #0d0d0d;
+}
+
+
+p{
+    font-size: 18px;
+    color: white;
+    text-shadow: 2px 2px 0px #0d0d0d;
+}
