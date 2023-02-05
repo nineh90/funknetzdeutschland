@@ -12,7 +12,7 @@ html{
     scroll-behavior: smooth;
 }
 
-.width-50{
+.width{
     width: 50%;
 }
 
@@ -27,9 +27,7 @@ html{
     align-items: center;
     text-align: center;
     width: 100%;
-    height: 60vh;
-    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
-            box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    height: 50vh;
     background-image: url(../img/header-img.jpg);
     background-repeat: no-repeat;
     background-size: 100%;        
@@ -40,13 +38,21 @@ html{
     position: fixed;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-between;
     height: 65px;
     left: 0;
     top: 0;
     right: 0;
     background: linear-gradient(to bottom, rgb(12 105 122) 0%, rgba(0, 0, 0, 0) 100%);
 
+}
+
+.logo-img{
+    width: 45px;
+    cursor: pointer;
+    position: absolute;
+    right: 50%;
+    top: 20%;
 }
 
 .menu-btn{
@@ -68,6 +74,12 @@ html{
     align-items: center;
     text-align: center;
     
+}
+
+.content-img{
+    filter: invert(100%) sepia(8%) saturate(2867%) hue-rotate(307deg) brightness(125%) contrast(101%);
+    width: 140px;
+    margin-bottom: 24px;
 }
 
 .footer-container{
@@ -104,7 +116,7 @@ html{
 }
 
 .navbar-container{
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -113,7 +125,7 @@ html{
     bottom: 0;
     left: 0;
     width: 30%;
-    background-color: blue;
+    background-color: #3100f7;
     /* overflow-y: scroll; */
     z-index: 9;
 }
@@ -131,6 +143,7 @@ html{
 
 .navbar-container a:hover{
     background-color: aqua;
+    color: black;
 }
 
 .menu-overlay{
@@ -144,3 +157,130 @@ html{
     z-index: 8;
 }
 
+.link-container{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.link-container a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+
+.link-container a:hover{
+    text-decoration: underline;
+}
+
+.link-card {
+  width: 300px;
+  height: 150px;
+  border: solid 2px white;
+  border-radius: 12px;
+  margin: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* ScrollBar */
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 5px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: coral; 
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+  }
+
+
+  #menuIcon {
+    width: 60px;
+    height: 45px;
+    position: absolute;
+    left: 24px;
+    margin: 50px auto;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+  }
+  
+  #menuIcon span {
+    display: block;
+    position: absolute;
+    height: 9px;
+    width: 100%;
+    background: white;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+  }
+
+#menuIcon span:nth-child(1) {
+    top: 0px;
+  }
+  
+  #menuIcon span:nth-child(2),#menuIcon span:nth-child(3) {
+    top: 18px;
+  }
+  
+  #menuIcon span:nth-child(4) {
+    top: 36px;
+  }
+  
+  #menuIcon.open span:nth-child(1) {
+    top: 18px;
+    width: 0%;
+    left: 50%;
+  }
+  
+  #menuIcon.open span:nth-child(2) {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  
+  #menuIcon.open span:nth-child(3) {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  
+  #menuIcon.open span:nth-child(4) {
+    top: 18px;
+    width: 0%;
+    left: 50%;
+  }  

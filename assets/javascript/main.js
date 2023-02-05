@@ -13,11 +13,18 @@ async function includeHTML(link) {
 function openPageMenu(){
     document.body.classList.add('body-overflow-hidden');
     document.getElementById('navigation').style.display = 'flex';
-    console.log('Menü geöffnet');
+    document.getElementById('overlay').style.display = 'flex';
+    const navIcon = document.getElementById('menuIcon');
+    if (navIcon.classList.contains('open')) {
+        closePageMenu();
+    } else {
+        navIcon.classList.add('open');
+    }
 }
 
 function closePageMenu(){
     document.body.classList.remove('body-overflow-hidden');
     document.getElementById('navigation').style.display = 'none';
-    console.log('Menü geschlossen');
+    document.getElementById('overlay').style.display = 'none';
+    document.getElementById('menuIcon').classList.remove('open');
 }
