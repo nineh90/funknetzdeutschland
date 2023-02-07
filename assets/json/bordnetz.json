@@ -1,0 +1,222 @@
+[
+    {
+        "callsign": "LEN1FH",
+        "type": "link",
+        "description": "149.025MHz Tone 67 Hz",
+        "qth": "Lengerich",
+        "sysop": "Volker"
+    },
+    {
+        "callsign": "LEN1AB",
+        "type": "link",
+        "description": "149.050 MHZ Tone 67Hz",
+        "qth": "Lengerich",
+        "sysop": "Andreas"
+    },
+    {
+        "callsign": "Schoppingen",
+        "type": "link",
+        "description": "CB-11",
+        "qth": "Schoppingen",
+        "sysop": "Thomas"
+    },
+    {
+        "callsign": "Lengerich",
+        "type": "link",
+        "description": "Freenet-1-CTCSS-67HZ",
+        "qth": "Lengerich",
+        "sysop": "Volker"
+    },
+    {
+        "callsign": "(07) Lengerich",
+        "type": "link",
+        "description": "PMR-4-CTCSS-67HZ",
+        "qth": "Lengerich",
+        "sysop": "Volker"
+    },
+    {
+        "callsign": "Lengerich",
+        "type": "link",
+        "description": "West-CB-11",
+        "qth": "Lengerich",
+        "sysop": "Volker"
+    },
+    {
+        "callsign": "Bad-Oeynhausen",
+        "type": "link",
+        "description": "Freenet-5",
+        "qth": "Bad-Oeynhausen",
+        "sysop": "Eberhard"
+    },
+    {
+        "callsign": "Lienen",
+        "type": "link",
+        "description": "Freenet-2-CTCSS-67Hz",
+        "qth": "Lienen",
+        "sysop": "Ralf"
+    },
+    {
+        "callsign": "Bielefeld",
+        "type": "link",
+        "description": "Freenet-4-CTCSS-67Hz",
+        "qth": "Bielefeld",
+        "sysop": "Dennis"
+    },
+    {
+        "callsign": "Horstmar",
+        "type": "Crossband",
+        "description": "Freenet-5-Pmr-8-CTCSS-67Hz",
+        "qth": "Horstmar",
+        "sysop": "Thomas"
+    },
+    {
+        "callsign": "Kiel",
+        "type": "link",
+        "description": "Pmr-16-CTCSS-77Hz",
+        "qth": "Kiel",
+        "sysop": "Vittorio"
+    },
+    {
+        "callsign": "Bissendorf",
+        "type": "link",
+        "description": "Freenet-2",
+        "qth": "Bissendorf",
+        "sysop": "Wolfgang"
+    },
+    {
+        "callsign": "Leverkusen",
+        "type": "link",
+        "description": "CB-41",
+        "qth": "Leverkusen",
+        "sysop":"Dirk"
+    },
+    {
+        "callsign": "Köln",
+        "type": "link",
+        "description": "Freenet-4-CTCSS-67Hz",
+        "qth": "Köln",
+        "sysop": "Chris"
+    },
+    {
+        "callsign": "Rensburg",
+        "type": "link",
+        "description": "Pmr-15-CTCSS-67HZ",
+        "qth": "Rensburg",
+        "sysop": "Andreas"
+    },
+    {
+        "callsign": "Bad-Oeynhausen",
+        "type": "link",
+        "description": "CB-11",
+        "qth": "Bad-Oeynhausen",
+        "sysop": "Eberhard"
+    },
+    {
+        "callsign": "Euskirchen",
+        "type": "link",
+        "description": "Freenet-2-CTCSS-77Hz",
+        "qth": "Euskirchen",
+        "sysop": "Arno"
+    },
+    {
+        "callsign": "Rheine",
+        "type": "link",
+        "description": "Pmr-",
+        "qth": "Rheine",
+        "sysop": "Manfred"
+    },
+    {
+        "callsign": "Rees",
+        "type": "link",
+        "description": "Freenet-5-CTCSS-67Hz",
+        "qth": "Rees",
+        "sysop": "Christian"
+    },
+    {
+        "callsign": "Frn-Svxlink",
+        "type": "link",
+        "description": "Talkgrup-4001",
+        "qth": "Svxlink",
+        "sysop": "Frn"
+    },
+    {
+        "callsign": "Tecklenburger",
+        "type": "link",
+        "description": "Land-West-CB-34",
+        "qth": "Tecklenburger",
+        "sysop": "Volker"
+    },
+    {
+        "callsign": "Ellerbek",
+        "type": "link",
+        "description": "Freenet-5",
+        "qth": "Ellerbek",
+        "sysop": "Johnny"
+    },
+    {
+        "callsign": "Leverkusen",
+        "type": "link",
+        "description": "West-Freenet-4-CTCSS67Hz",
+        "qth": "Leverkusen",
+        "sysop": "Dirk"
+    },
+    {
+        "callsign": "Tecklenburger",
+        "type": "link",
+        "description": "Land-West-Freenet-3",
+        "qth": "Tecklenburger",
+        "sysop": "Volker"
+    },
+    {
+        "callsign": "Sonsbeck",
+        "type": "link",
+        "description": "Freenet-6-CTCSS-67Hz",
+        "qth": "Sonsbeck",
+        "sysop": "Markus"
+    },
+    {
+        "callsign": "Fehmarn-Burg",
+        "type": "link",
+        "description": "Freenet-6-CTCSS-67Hz",
+        "qth": "Fehmarn-Burg",
+        "sysop": "Kim"
+    },
+    {
+        "callsign": "Münster",
+        "type": "link",
+        "description": "CB-39",
+        "qth": "Münster",
+        "sysop": "Alwin"
+    },
+    {
+        "callsign": "Ellerbek",
+        "type": "link",
+        "description": "CB-11",
+        "qth": "Ellerbek",
+        "sysop": "Johnny"
+    },
+    {
+        "callsign": "Bremen",
+        "type": "link",
+        "description": "Freenet-3-CTCSS-67Hz",
+        "qth": "Bremen",
+        "sysop": "Mattes"
+        
+    },
+    {
+        "callsign": "Koblenz",
+        "type": "link",
+        "description": "Freenet-2-CTCSS-67Hz",
+        "qth": "Koblenz",
+        "sysop": "Uwe"
+        
+        
+        },
+    {
+        "callsign": "NW-NI",
+        "type": "Relaisstation",
+        "description": "Freenet-2-PMR-8-CTCSS-67Hz",
+        "qth": "DE-NI-DE-NW",
+        "sysop": "test"
+    }
+    ]   
